@@ -7,8 +7,8 @@ const Home = () => (
 		<header className="masthead">
 			<div className="container">
 				<div className="intro-text">
-					<div className="intro-lead-in">It's nice to meet you!</div>
-					<div className="intro-heading text-uppercase">I'm Shaun</div>
+					<div className="intro-lead-in">It&rsquo;s nice to meet you!</div>
+					<div className="intro-heading text-uppercase">I&rsquo;m Shaun</div>
 					<a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Meet me</a>
 				</div>
 			</div>
