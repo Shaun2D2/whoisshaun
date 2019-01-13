@@ -5,6 +5,17 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
-@import '~startbootstrap-agency/scss/variables';
+// @import '~startbootstrap-agency/scss/variables';
 @import '~startbootstrap-agency/scss/agency';
 @import '~bootstrap/scss/bootstrap.scss';
+
+// timeline corrections
+.timeline-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4 {
+        margin: 0px !important;
+        padding: 5px;
+    }
+}

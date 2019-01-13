@@ -17,37 +17,64 @@ const Home = () => (
 		<section id="hello" className="bg-light-gray">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-12 text-center">
-						<h2 className="section-heading">Hey there!</h2>
-					</div>
-				</div>
-				<div className="row">
-					<div className="col-sm-4 col-sm-offset-4">
+					<div className="col-sm-4 offset-sm-4">
 						<div className="team-member">
 							<img src="img/me.jpg" className="img-responsive img-circle" alt="" />
 							<br />
 							<ul className="list-inline social-buttons">
-								<li><a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066"><i className="fa fa-linkedin"></i></a>
+								<li className="list-inline-item">
+									<a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066"><i className="fab fa-linkedin-in" /></a>
 								</li>
-								<li><a href="https://twitter.com/Shaun2D2"><i className="fa fa-twitter"></i></a>
-								</li>
-								<li><a href="https://github.com/Shaun2D2"><i className="fa fa-github"></i></a>
+								<li className="list-inline-item">
+									<a href="https://github.com/Shaun2D2"><i className="fab fa-github-alt" /></a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-lg-8 col-lg-offset-2">
+					<div className="col-md-8 offset-md-2">
+						<p className="large text-muted">Hey there! I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
+						<p className="large text-muted">I have experience with several modern languages such as Node.js, PHP, and React.  Feel free to look over some of my projects below.</p>
+						<p className="large text-muted">My most recent work has been at GoDaddy, the worlds largest domain registrar where I work on their Office 365 reseller team.  I&rsquo;ve contributed to several large initives including integrating other GoDaddy products into our activation workflow and migrating our front end application from Ember to React.</p>
+						<p className="large text-muted">Whether it&rsquo;s developing a new web product or creating wireframes for the newest project, I&rsquo;m up for any challenge and love to learn more!</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-						<p className="large text-muted">I’m <strong>Shaun Lobsinger</strong>, a passionate web developer and UX designer, who’s looking for exciting opportunities to help clients create or refine their web products. I possess skills composed of a formal education in Human Factors (MS 2015) with over 3 years of experience as a professional web developer.</p>
-
-						<p className="large text-muted">My stack currently focuses on PHP and the Laravel framework with the use of Bootstrap, jQuery, Vue.js and SASS for my front end.  I enjoy working with front and back end technology and am excited about learning new skills.</p>
-
-						<p className="large text-muted">My most recent work has brought major positive changes to Arizona Federal Credit Union, where I rebuilt the entire development workflow. I introduced GIT & BitBucket Server to the organization. I also created a CI pipeline through the use of Bamboo server to provide quick and easy testing, builds, and deployments. I worked hard to migrate from Adobe Cold Fusion to PHP which provided a standardized framework for development with Laravel 5.</p>
-
-						<p className="large text-muted">Whether it’s developing a new web product or creating wireframes for the newest project, I’m up for any challenge and love adding new skills to my repertoire!</p>
-
+		<section id="services">
+			<div className="container">
+				<div className="row">
+					<div className="col-lg-12 text-center">
+						<h2 className="section-heading text-uppercase">My Stack</h2>
+						<h3 className="section-subheading text-muted">Here is a sample of the tech I typically work with.</h3>
+					</div>
+				</div>
+				<div className="row text-center">
+					<div className="col-md-4">
+						<span className="fa-stack fa-4x">
+							<i className="fas fa-circle fa-stack-2x text-primary" />
+							<i className="fab fa-node-js fa-stack-1x fa-inverse" />
+						</span>
+						<h4 className="service-heading">Backend</h4>
+						<p className="text-muted">In the past I&rsquo;ve used <a href="https://secure.php.net/">PHP</a> or <a href="https://www.adobe.com/products/coldfusion-enterprise.html">ColdFusion</a> to power my backend, however, I&rsquo;ve switched to mostly using <a href="https://nodejs.org/en/">Node.js</a> thanks to its rising popularity and incredibly diverse ecosystem.</p>
+					</div>
+					<div className="col-md-4">
+						<span className="fa-stack fa-4x">
+							<i className="fas fa-circle fa-stack-2x text-primary"></i>
+							<i className="fab fa-react fa-stack-1x fa-inverse" />
+						</span>
+						<h4 className="service-heading">Frontend</h4>
+						<p className="text-muted"><a href="https://reactjs.org/">React</a> and <a href="https://redux.js.org/">Redux</a> is my go to frameworks to manage frontend UI and state.  I&rsquo;ve also implement other popular packages such as <a href="https://momentjs.com/">moment.js</a>, <a href="https://lodash.com/">lodash</a>, and <a href="https://getbootstrap.com/">bootstrap</a>.</p>
+					</div>
+					<div className="col-md-4">
+						<span className="fa-stack fa-4x">
+							<i className="fas fa-circle fa-stack-2x text-primary"></i>
+							<i className="fab fa-sass fa-stack-1x fa-inverse"></i>
+						</span>
+						<h4 className="service-heading">Build</h4>
+						<p className="text-muted">I use modern build tools such as <a href="https://webpack.js.org/">Webpack</a> in my workflow.  Along with other goodies like <a href="https://eslint.org/">eslint</a> and <a href="https://babeljs.io/">babel</a> I can create powerful application quickly.</p>
 					</div>
 				</div>
 			</div>
@@ -58,7 +85,7 @@ const Home = () => (
 				<div className="row">
 					<div className="col-lg-12 text-center">
 						<h2 className="section-heading">My Experience</h2>
-						<h3 className="section-subheading text-muted">What i've been up to.</h3>
+						<h3 className="section-subheading text-muted">What i&rsquo;ve been up to.</h3>
 					</div>
 				</div>
 				<div className="row">
