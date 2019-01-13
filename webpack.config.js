@@ -11,8 +11,20 @@ module.exports = {
         rules: [
             {
                 test: /.jsx?$/,
-                exclude: /node_modules/,
+                exclude: /node_modules(?!\/startbootstrap-agency)/,
                 use: 'babel-loader'
+            },
+            {
+                test: /.scss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                use: 'file-loader'
             }
         ]
     },
@@ -21,5 +33,8 @@ module.exports = {
             hash: true,
             template: './src/template.html'
         })
-    ]
+    ],
+    resolve: {
+        extensions: ['.js', '.jsx']
+    }
 }

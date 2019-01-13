@@ -1,1 +1,8 @@
-console.log('hello world!');
+import React, { createElement } from 'react';
+import { render } from 'react-dom';
+
+import App from './App';
+
+import './scss/app.scss';
+
+render(createElement(App), document.getElementById('app'));
