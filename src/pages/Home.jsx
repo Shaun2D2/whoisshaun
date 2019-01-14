@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 import Timeline from "../components/timeline";
+import Projects from '../components/projects';
 
 const Home = () => (
 	<Fragment>
@@ -9,18 +10,17 @@ const Home = () => (
 				<div className="intro-text">
 					<div className="intro-lead-in">It&rsquo;s nice to meet you!</div>
 					<div className="intro-heading text-uppercase">I&rsquo;m Shaun</div>
-					<a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Meet me</a>
+					<a href="#hello"><i className="fas fa-chevron-down fa-4x" /></a>
 				</div>
 			</div>
 		</header>
 
-		<section id="hello" className="bg-light-gray">
+		<section id="hello">
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-4 offset-sm-4">
 						<div className="team-member">
-							<img src="img/me.jpg" className="img-responsive img-circle" alt="" />
-							<br />
+							<img src="assets/slobsinger.jpg" className="img-responsive rounded-circle" />
 							<ul className="list-inline social-buttons">
 								<li className="list-inline-item">
 									<a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066"><i className="fab fa-linkedin-in" /></a>
@@ -28,13 +28,18 @@ const Home = () => (
 								<li className="list-inline-item">
 									<a href="https://github.com/Shaun2D2"><i className="fab fa-github-alt" /></a>
 								</li>
+								<li className="list-inline-item">
+									<a href="mailto:shaun.lobsinger@gmail.com">
+										<i className="fas fa-envelope" />
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div className="row">
 					<div className="col-md-8 offset-md-2">
-						<p className="large text-muted">Hey there! I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
+						<p className="large text-muted">I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
 						<p className="large text-muted">I have experience with several modern languages such as Node.js, PHP, and React.  Feel free to look over some of my projects below.</p>
 						<p className="large text-muted">My most recent work has been at GoDaddy, the worlds largest domain registrar where I work on their Office 365 reseller team.  I&rsquo;ve contributed to several large initives including integrating other GoDaddy products into our activation workflow and migrating our front end application from Ember to React.</p>
 						<p className="large text-muted">Whether it&rsquo;s developing a new web product or creating wireframes for the newest project, I&rsquo;m up for any challenge and love to learn more!</p>
@@ -43,7 +48,7 @@ const Home = () => (
 			</div>
 		</section>
 
-		<section id="services">
+		<section id="services" className="bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12 text-center">
@@ -96,15 +101,15 @@ const Home = () => (
 			</div>
 		</section>
 
-		<section id="portfolio" className="bg-light-gray">
+		<section id="portfolio" className="bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12 text-center">
-						<h2 className="section-heading">Featured Work</h2>
+						<h2 className="section-heading">My Work</h2>
 						<h3 className="section-subheading text-muted">Here is a sample of my projects</h3>
 					</div>
 				</div>
-                project cards here...
+				<Projects />
 			</div>
 		</section>
 	</Fragment>

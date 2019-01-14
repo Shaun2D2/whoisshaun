@@ -1,4 +1,5 @@
 const WebpackHtmlPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const path = require("path");
 
 module.exports = {
@@ -12,7 +13,7 @@ module.exports = {
 			{
 				test: /.jsx?$/,
 				exclude: /node_modules(?!\/startbootstrap-agency)/,
-				use: "babel-loader"
+				loader: "babel-loader"
 			},
 			{
 				test: /.scss$/,
@@ -24,7 +25,10 @@ module.exports = {
 			},
 			{
 				test: /\.(woff(2)?|ttf|eot|svg|png|jpg|gif)$/,
-				use: "file-loader"
+				loader: "file-loader",
+				options: {
+					outputPath: 'assets'
+				}
 			}
 		]
 	},
@@ -32,7 +36,11 @@ module.exports = {
 		new WebpackHtmlPlugin({
 			hash: true,
 			template: "./src/template.html"
-		})
+		}),
+		new CopyWebpackPlugin([{
+			from: 'src/img', 
+			to: 'assets',
+		}])
 	],
 	resolve: {
 		extensions: [".js", ".jsx"]

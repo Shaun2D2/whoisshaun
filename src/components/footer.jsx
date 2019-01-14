@@ -20,6 +20,11 @@ const Footer = () => (
 								<i className="fab fa-linkedin-in" />
 							</a>
 						</li>
+						<li className="list-inline-item">
+							<a href="mailto:shaun.lobsinger@gmail.com">
+								<i className="fas fa-envelope" />
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
