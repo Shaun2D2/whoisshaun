@@ -1,20 +1,23 @@
 const projects = [
 	{
-		name: "Arizona Federal",
+		title: "Arizona Federal",
+		short: "Site Relaunch",
 		description: "",
-		img: "",
+		image: "arizona-federal.png",
 		tech: [""]
 	},
 	{
-		name: "Arizona Federal Join",
+		title: "Arizona Federal Join",
+		short: "Membership Application",
 		description: "",
-		img: "",
+		image: "arizona-federal-join.png",
 		tech: [""]
 	},
 	{
-		name: "Office 365 Panel",
-		description: "",
-		img: "",
+		title: "GoDaddy Email",
+		short: "Management Panel",
+		description: "arizona-federal-join.png",
+		image: "arizona-federal-join.png",
 		tech: [""]
 	}
 ];

@@ -31,16 +31,13 @@ class Navbar extends Component {
 					<div className="collapse navbar-collapse" id="navbarResponsive">
 						<ul className="navbar-nav text-uppercase ml-auto">
 							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="#hello">Meet Shaun</a>
+								<a className="nav-link js-scroll-trigger" href="#hello">About Me</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link js-scroll-trigger" href="#experience">My Experience</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link js-scroll-trigger" href="#portfolio">Featured Work</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link js-scroll-trigger" href="#team">Resume</a>
