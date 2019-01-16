@@ -37,10 +37,16 @@ module.exports = {
 			hash: true,
 			template: "./src/template.html"
 		}),
-		new CopyWebpackPlugin([{
-			from: 'src/img', 
-			to: 'assets',
-		}])
+		new CopyWebpackPlugin([
+			{
+				from: 'src/img', 
+				to: 'assets',
+			},
+			{
+				from: 'src/docs', 
+				to: 'assets',
+			}
+		])
 	],
 	resolve: {
 		extensions: [".js", ".jsx"]

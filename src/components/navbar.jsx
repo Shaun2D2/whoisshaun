@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 
 class Navbar extends Component {
 	constructor(props) {
@@ -31,16 +32,43 @@ class Navbar extends Component {
 					<div className="collapse navbar-collapse" id="navbarResponsive">
 						<ul className="navbar-nav text-uppercase ml-auto">
 							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="#hello">About Me</a>
+								<Link 
+									to="hello"
+									className="nav-link nav-link--pointer js-scroll-trigger"
+									smooth
+								>
+									My Story
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="#experience">My Experience</a>
+								<Link 
+									to="stack"
+									className="nav-link nav-link--pointer js-scroll-trigger"
+									smooth
+								>
+										My Stack
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="#portfolio">Featured Work</a>
+								<Link 
+									to="experience"
+									className="nav-link nav-link--pointer js-scroll-trigger"
+									smooth
+								>
+										My Experience
+								</Link>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="#team">Resume</a>
+								<Link 
+									to="portfolio"
+									className="nav-link nav-link--pointer js-scroll-trigger"
+									smooth
+								>
+										My Projects
+								</Link>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link js-scroll-trigger" href="assets/resume.docx">Resume</a>
 							</li>
 						</ul>
 					</div>

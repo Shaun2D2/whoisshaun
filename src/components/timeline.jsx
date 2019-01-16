@@ -10,9 +10,9 @@ const Timeline = () => (
 					<h4 className="subheading">Quality Analyist</h4>
 				</div>
 				<div className="timeline-body">
-					<p className="text-muted">As Quality Analyst I was tasked with maintaining existing web based products to assist call center employees.  My responsibilities also included creating new products based on business needs.  For example, I created a note tracking application to help managers and Quality Specialists keep record of previous coaching sessions.</p>
+					<p className="text-muted">As Quality Analyst I was tasked with maintaining existing web based products to assist employees.  My responsibilities also included developing new products as needed by the business.  For example, I created a note tracking application to help managers and Quality Specialists keep record of previous coaching sessions.</p>
 					<br  />
-					<p className="text-muted">I was also responsible for conducting redundant call monitoring and coaching quality specialists to ensure interrater reliability and adherence to the quality cycle.  I led cross site calibration meetings to ensure all sites were in agreement with call scoring standards, while compiling monthly reports for management to show team’s effectiveness.</p>
+					<p className="text-muted">My responsibilities also included conducting redundant call monitoring, coaching employees, and reporting.</p>
 				</div>
 			</div>
 		</li>
@@ -26,9 +26,9 @@ const Timeline = () => (
 					<h4 className="subheading">Sr. Web Developer</h4>
 				</div>
 				<div className="timeline-body">
-					<p className="text-muted">My role at Arizona Federal focuses on full stack development, Linux server management, and UX design.  Acting as the sole web developer for the organization, I was responsible for collecting project requirements, creating work flows, developing prototypes, writing code and consulting internal stakeholders.</p>
+					<p className="text-muted">My role at Arizona Federal focused on full stack development, Linux server management, and UX design.  As the senior web developer for the organization, I was responsible for collecting project requirements, implementing new work flows, writing code and consulting internal stakeholders.</p>
 					<br  />
-					<p className="text-muted">Some of my major achievements include relaunching ArizonaFederal.org with a modern look and feel, launching an online membership application, introducing GIT version control, and implementing the first CI/CD pipeline for continous deployment through Atlassian Bamboo.</p>
+					<p className="text-muted">Some of my major achievements include relaunching ArizonaFederal.org with a modern look and feel, launching an online membership application, and establishing a CI/CD pipeline for continous deployment.</p>
 				</div>
 			</div>
 		</li>
@@ -40,9 +40,7 @@ const Timeline = () => (
 					<h4 className="subheading">Software Engineer</h4>
 				</div>
 				<div className="timeline-body">
-					<p className="text-muted">My latest work with GoDaddy blah blah blah...</p>
-					<br  />
-					<p className="text-muted">I was also responsible for conducting redundant call monitoring and coaching quality specialists to ensure interrater reliability and adherence to the quality cycle.  I led cross site calibration meetings to ensure all sites were in agreement with call scoring standards, while compiling monthly reports for management to show team’s effectiveness.</p>
+					<p className="text-muted">I joined Go Daddy to help entrepreneurs bring their dreams to life.  Primarily my work focuses on helping customer manage their email products with a proprietary control panel.  Within the application, a user is able to provision and manage their email accounts in one convenient place.  Some of my major achievements include assisting with migrating our application from an old version of Ember to React, launching a new email product, and providing an API to allow 3rd party application to activate credits without leaving their experience.</p>
 				</div>
 			</div>
 		</li>

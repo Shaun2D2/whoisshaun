@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
+import { Link } from "react-scroll";
 
 import Timeline from "../components/timeline";
-import Projects from '../components/projects';
+import Projects from "../components/projects";
 
 const Home = () => (
 	<Fragment>
@@ -10,7 +11,13 @@ const Home = () => (
 				<div className="intro-text">
 					<div className="intro-lead-in">It&rsquo;s nice to meet you!</div>
 					<div className="intro-heading text-uppercase">I&rsquo;m Shaun</div>
-					<a href="#hello"><i className="fas fa-chevron-down fa-4x" /></a>
+					<Link
+						to="hello"
+						className="nav-link--pointer"
+						smooth
+					>
+						<i className="fas fa-chevron-down fa-4x brand-color animated infinite bounce slower delay-2s" />
+					</Link>
 				</div>
 			</div>
 		</header>
@@ -48,7 +55,7 @@ const Home = () => (
 			</div>
 		</section>
 
-		<section id="services" className="bg-light">
+		<section id="stack" className="bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12 text-center">

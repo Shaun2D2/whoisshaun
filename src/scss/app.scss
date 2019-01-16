@@ -1,3 +1,4 @@
+@import '~animate.css/animate.css';
 @import '~startbootstrap-agency/vendor/fontawesome-free/css/all.css';
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -24,4 +25,13 @@
     img {
         margin-bottom: 25px;
     }
+}
+
+.brand-color {
+    color: #fec503;
+}
+
+// navbar stuff
+.nav-link--pointer {
+    cursor: pointer;
 }
