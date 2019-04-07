@@ -1,17 +1,21 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import Modal from "./components/modal";
 import Home from "./pages/Home";
+
+import { AppProvider } from "./contexts/App";
 
 import "./scss/app.scss";
 
 const App = () => (
-	<Fragment>
+	<AppProvider>
 		<Navbar />
 		<Home />
 		<Footer />
-	</Fragment>
+		<Modal />
+	</AppProvider>
 );
 
 export default App;

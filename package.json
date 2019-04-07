@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Shaun2D2/whoisshaun#readme",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
     "animate.css": "^3.7.0",
     "bootstrap": "^4.2.1",
     "css-loader": "^2.1.0",

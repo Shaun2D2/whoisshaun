@@ -1,5 +1,6 @@
 const projects = [
 	{
+		id: 1,
 		title: "Arizona Federal",
 		short: "Site Relaunch",
 		description: "",
@@ -7,6 +8,7 @@ const projects = [
 		tech: [""]
 	},
 	{
+		id: 2,
 		title: "Arizona Federal Join",
 		short: "Membership Application",
 		description: "",
@@ -14,6 +16,7 @@ const projects = [
 		tech: [""]
 	},
 	{
+		id: 3,
 		title: "GoDaddy Email",
 		short: "Management Panel",
 		description: "arizona-federal-join.png",

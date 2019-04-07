@@ -4,6 +4,8 @@ import { Link } from "react-scroll";
 import Timeline from "../components/timeline";
 import Projects from "../components/projects";
 
+import { AppConsumer } from '../contexts/App';
+
 const Home = () => (
 	<Fragment>
 		<header className="masthead">
@@ -47,9 +49,9 @@ const Home = () => (
 				<div className="row">
 					<div className="col-md-8 offset-md-2">
 						<p className="large text-muted">I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
-						<p className="large text-muted">I have experience with several modern languages such as Node.js, PHP, and React.  Feel free to look over some of my projects below.</p>
-						<p className="large text-muted">My most recent work has been at GoDaddy, the worlds largest domain registrar where I work on their Office 365 reseller team.  I&rsquo;ve contributed to several large initives including integrating other GoDaddy products into our activation workflow and migrating our front end application from Ember to React.</p>
-						<p className="large text-muted">Whether it&rsquo;s developing a new web product or creating wireframes for the newest project, I&rsquo;m up for any challenge and love to learn more!</p>
+						<p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to look over some of my projects below.</p>
+						<p className="large text-muted">My most recent work has been at GoDaddy, where I work on the productivity email team.  I&rsquo;ve contributed to several large initives including integrating other GoDaddy products into our activation workflow and migrating our front end application from Ember to React.</p>
+						<p className="large text-muted">Whether it&rsquo;s developing a new web product or creating wireframes for a new concept, I&rsquo;m up for the challenge!</p>
 					</div>
 				</div>
 			</div>
