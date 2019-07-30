@@ -4,8 +4,6 @@ import { Link } from "react-scroll";
 import Timeline from "../components/timeline";
 import Projects from "../components/projects";
 
-import { AppConsumer } from '../contexts/App';
-
 const Home = () => (
 	<Fragment>
 		<header className="masthead">
@@ -107,7 +105,7 @@ const Home = () => (
 				</div>
 			</div>
 		</section>
-
+{/** 
 		<section id="portfolio" className="bg-light">
 			<div className="container">
 				<div className="row">
@@ -119,6 +117,7 @@ const Home = () => (
 				<Projects />
 			</div>
 		</section>
+ */}
 	</Fragment>
 );
 

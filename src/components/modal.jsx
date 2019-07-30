@@ -1,8 +1,11 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import PropTypes from "prop-types";
+
 import { AppConsumer } from "../contexts/App";
 
-class Modal extends Component {
+class ProjectModal extends Component {
     static propTypes = {
     	title: PropTypes.string,
     	children: PropTypes.node,
@@ -28,44 +31,20 @@ class Modal extends Component {
     	const { modalTitle, modalBody, modalImg } = this.props;
 		
     	return (
-    		<Fragment>
-    			<div
-    				className="modal fade show" 
-    				tabIndex="-1" role="dialog"
-					style={{ display: "block" }}
-					onBlur={() => console.log('test')}
-    			>
-    				<div className="modal-dialog modal-lg" role="document">
-    					<div className="modal-content">
-    						<div className="modal-header">
-    							<h5 className="modal-title">{ modalTitle }</h5>
-    							<button 
-    								type="button" 
-    								className="close" 
-    								data-dismiss="modal" 
-    								aria-label="Close"
-    								onClick={this.close}
-    							>
-    								<span aria-hidden="true">&times;</span>
-    							</button>
-    						</div>
-    						<div className="modal-body">
-    							<div className="row">
-    								<div className="col-sm-4">
-    									<img src={`assets/${modalImg}`} style={{ width: "100%" }} />
-    								</div>
-    								<div className="col-sm-8">
-    									{modalBody}
-    								</div>
-    							</div>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    			<div className="modal-backdrop fade show" />   
-    		</Fragment>
-    
-    	);
+    		<Modal show={true} onHide={null}>
+    			<Modal.Header closeButton>
+			  <Modal.Title>Modal heading</Modal.Title>
+    			</Modal.Header>
+    			<Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+    			<Modal.Footer>
+			  <Button variant="secondary" onClick={null}>
+				Close
+			  </Button>
+			  <Button variant="primary" onClick={null}>
+				Save Changes
+			  </Button>
+    			</Modal.Footer>
+		  </Modal>    	);
     }
 }
 
@@ -74,7 +53,7 @@ class Modal extends Component {
 const withContext = () => (
 	<AppConsumer>
 		{(settings) => {
-			return settings.showModal ? <Modal {...settings} /> : null;
+			return settings.showModal ? <ProjectModal {...settings} /> : null;
 		}}
 	</AppConsumer>
 );
