@@ -21,19 +21,19 @@ class Modal extends Component {
     }
 	
     close() {
-    	console.log(this.props);
     	this.props.closeModal();
     }
 
     render() {
-    	const { modalTitle, children } = this.props;
+    	const { modalTitle, modalBody, modalImg } = this.props;
 		
     	return (
     		<Fragment>
     			<div
     				className="modal fade show" 
     				tabIndex="-1" role="dialog"
-    				style={{ display: "block" }}
+					style={{ display: "block" }}
+					onBlur={() => console.log('test')}
     			>
     				<div className="modal-dialog modal-lg" role="document">
     					<div className="modal-content">
@@ -50,7 +50,14 @@ class Modal extends Component {
     							</button>
     						</div>
     						<div className="modal-body">
-    							{children}
+    							<div className="row">
+    								<div className="col-sm-4">
+    									<img src={`assets/${modalImg}`} style={{ width: "100%" }} />
+    								</div>
+    								<div className="col-sm-8">
+    									{modalBody}
+    								</div>
+    							</div>
     						</div>
     					</div>
     				</div>

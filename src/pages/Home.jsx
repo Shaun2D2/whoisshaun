@@ -50,8 +50,6 @@ const Home = () => (
 					<div className="col-md-8 offset-md-2">
 						<p className="large text-muted">I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
 						<p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to look over some of my projects below.</p>
-						<p className="large text-muted">My most recent work has been at GoDaddy, where I work on the productivity email team.  I&rsquo;ve contributed to several large initives including integrating other GoDaddy products into our activation workflow and migrating our front end application from Ember to React.</p>
-						<p className="large text-muted">Whether it&rsquo;s developing a new web product or creating wireframes for a new concept, I&rsquo;m up for the challenge!</p>
 					</div>
 				</div>
 			</div>
@@ -72,7 +70,7 @@ const Home = () => (
 							<i className="fab fa-node-js fa-stack-1x fa-inverse" />
 						</span>
 						<h4 className="service-heading">Backend</h4>
-						<p className="text-muted">In the past I&rsquo;ve used <a href="https://secure.php.net/">PHP</a> or <a href="https://www.adobe.com/products/coldfusion-enterprise.html">ColdFusion</a> to power my backend, however, I&rsquo;ve switched to mostly using <a href="https://nodejs.org/en/">Node.js</a> thanks to its rising popularity and incredibly diverse ecosystem.</p>
+						<p className="text-muted">In the past I&rsquo;ve used <a href="https://secure.php.net/">PHP</a> or <a href="https://www.adobe.com/products/coldfusion-enterprise.html">ColdFusion</a> to power my backend, however, I&rsquo;ve switched to mostly using <a href="https://nodejs.org/en/">Node.js</a>.</p>
 					</div>
 					<div className="col-md-4">
 						<span className="fa-stack fa-4x">
@@ -80,7 +78,7 @@ const Home = () => (
 							<i className="fab fa-react fa-stack-1x fa-inverse" />
 						</span>
 						<h4 className="service-heading">Frontend</h4>
-						<p className="text-muted"><a href="https://reactjs.org/">React</a> and <a href="https://redux.js.org/">Redux</a> is my go to frameworks to manage frontend UI and state.  I&rsquo;ve also implement other popular packages such as <a href="https://momentjs.com/">moment.js</a>, <a href="https://lodash.com/">lodash</a>, and <a href="https://getbootstrap.com/">bootstrap</a>.</p>
+						<p className="text-muted"><a href="https://reactjs.org/">React</a> and <a href="https://redux.js.org/">Redux</a> is my go to frameworks to manage frontend UI and state.  I&rsquo;ve commonly implement other popular packages / frameworks such as <a href="https://momentjs.com/">moment.js</a>, <a href="https://lodash.com/">lodash</a>, and <a href="https://getbootstrap.com/">bootstrap</a>.</p>
 					</div>
 					<div className="col-md-4">
 						<span className="fa-stack fa-4x">

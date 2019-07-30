@@ -10,6 +10,7 @@ class AppProvider extends Component {
 		this.state = {
 			showModal: false,
 			modalTitle: null,
+			modalImg: null,
 			modalBody: null
 		};
 
@@ -17,10 +18,11 @@ class AppProvider extends Component {
 		this.closeModal = this.closeModal.bind(this);
 	}
 
-	showModal(title, body) {
+	showModal(title, body, img) {
 		this.setState({ 
 			modalTitle: title,
 			modalBody: body,
+			modalImg: img,
 			showModal: true
 		});
 	}

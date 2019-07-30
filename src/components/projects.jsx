@@ -18,11 +18,12 @@ class Projects extends Component {
 	}
 
 	launchModal(id) {
-		const project = config[id];
+		const project = config.find(item => item.id === id);
 
 		this.props.displayModal(
 			project.title,
-			project.description
+			project.description,
+			project.image,
 		);
 	}
 
