@@ -58,6 +58,7 @@ class Navbar extends Component {
 										My Experience
 								</Link>
 							</li>
+							{/**
 							<li className="nav-item">
 								<Link 
 									to="portfolio"
@@ -67,6 +68,7 @@ class Navbar extends Component {
 										My Projects
 								</Link>
 							</li>
+							 */}
 							<li className="nav-item">
 								<a className="nav-link js-scroll-trigger" href="assets/resume.docx">Resume</a>
 							</li>

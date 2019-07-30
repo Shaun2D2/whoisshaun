@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-scroll";
 
 import Timeline from "../components/timeline";
-import Projects from "../components/projects";
+// import Projects from "../components/projects";
 
 const Home = () => (
 	<Fragment>
