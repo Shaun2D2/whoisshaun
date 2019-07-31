@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 
-class Navbar extends Component {
+import Navbar from "react-bootstrap/Navbar";
+
+class Nav extends Component {
 	constructor(props) {
 		super(props);
         
@@ -21,63 +23,21 @@ class Navbar extends Component {
 	render() {
 		const { offset } = this.state;
 
+		return "hello";
+
 		return (
-			<div className={`navbar navbar-expand-lg navbar-dark fixed-top ${offset > 50 ? "navbar-shrink" : ""}`} id="mainNav">
-				<div className="container">
-					<a className="navbar-brand js-scroll-trigger" href="#page-top">Shaun Lobsinger</a>
-					<button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-						<i className="fas fa-bars" />
-					</button>
-					<div className="collapse navbar-collapse" id="navbarResponsive">
-						<ul className="navbar-nav text-uppercase ml-auto">
-							<li className="nav-item">
-								<Link 
-									to="hello"
-									className="nav-link nav-link--pointer js-scroll-trigger"
-									smooth
-								>
-									My Story
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link 
-									to="stack"
-									className="nav-link nav-link--pointer js-scroll-trigger"
-									smooth
-								>
-										My Stack
-								</Link>
-							</li>
-							<li className="nav-item">
-								<Link 
-									to="experience"
-									className="nav-link nav-link--pointer js-scroll-trigger"
-									smooth
-								>
-										My Experience
-								</Link>
-							</li>
-							{/**
-							<li className="nav-item">
-								<Link 
-									to="portfolio"
-									className="nav-link nav-link--pointer js-scroll-trigger"
-									smooth
-								>
-										My Projects
-								</Link>
-							</li>
-							 */}
-							<li className="nav-item">
-								<a className="nav-link js-scroll-trigger" href="assets/resume.docx">Resume</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			<Navbar bg="light" expand="lg">
+				<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+				<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				<Navbar.Collapse id="basic-navbar-nav">
+					<Nav className="mr-auto">
+						<Nav.Link href="#home">Home</Nav.Link>
+						<Nav.Link href="#link">Link</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
 		);
 	}
 }
 
-export default Navbar;
+export default Nav;

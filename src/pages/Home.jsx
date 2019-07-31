@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import { Link } from "react-scroll";
 
 import Timeline from "../components/timeline";
-// import Projects from "../components/projects";
 
 const Home = () => (
 	<Fragment>
@@ -47,7 +46,10 @@ const Home = () => (
 				<div className="row">
 					<div className="col-md-8 offset-md-2">
 						<p className="large text-muted">I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
-						<p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to look over some of my projects below.</p>
+						<p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to check out my resume below.</p>
+					</div>
+					<div className="col-sm-12 text-center">
+						<a href="assets/resume.docx" className="btn btn-primary btn-lg">See Resume</a>
 					</div>
 				</div>
 			</div>
