@@ -6,7 +6,7 @@ const Timeline = () => (
 			<div className="timeline-image"><h4>GoDaddy</h4></div>
 			<div className="timeline-panel">
 				<div className="timeline-heading">
-					<h4>2016 - Present</h4>
+					<h4>2017 - Present</h4>
 					<h4 className="subheading">Software Engineer</h4>
 				</div>
 				<div className="timeline-body">
@@ -23,7 +23,7 @@ const Timeline = () => (
 			</div>
 			<div className="timeline-panel">
 				<div className="timeline-heading">
-					<h4>2013 - 2016</h4>
+					<h4>2013 - 2017</h4>
 					<h4 className="subheading">Sr. Web Developer</h4>
 				</div>
 				<div className="timeline-body">
