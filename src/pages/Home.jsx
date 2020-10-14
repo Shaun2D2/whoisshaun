@@ -45,7 +45,7 @@ const Home = () => (
 				</div>
 				<div className="row">
 					<div className="col-md-8 offset-md-2">
-						<p className="large text-muted">I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 5 years experience with software development provide a unique balance of technical and UX insights.</p>
+						<p className="large text-muted">I&rsquo;m <strong>Shaun</strong>, a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 8 years experience with software development provide a unique balance of technical and UX insights.</p>
 						<p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to check out my resume below.</p>
 					</div>
 					<div className="col-sm-12 text-center">
@@ -107,19 +107,6 @@ const Home = () => (
 				</div>
 			</div>
 		</section>
-{/** 
-		<section id="portfolio" className="bg-light">
-			<div className="container">
-				<div className="row">
-					<div className="col-lg-12 text-center">
-						<h2 className="section-heading">My Work</h2>
-						<h3 className="section-subheading text-muted">Here is a sample of my projects</h3>
-					</div>
-				</div>
-				<Projects />
-			</div>
-		</section>
- */}
 	</Fragment>
 );
 
