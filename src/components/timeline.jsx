@@ -12,7 +12,8 @@ const Timeline = () => (
 				<div className="timeline-body">
 					<p className="text-muted">
 						I joined the GoDaddy team to help empower small businesses entrepreneurs.  
-						My work helps millions of customer manage their email from a simple interface without having to manage from a more complicated Microsoft experience.
+						My work has helped millions of customer manage their email from a simple interface.  
+						More recently I'm helping web pros manage their customers through <a href="https://https://hub.godaddy.com" target="_blank">GoDaddy Hub</a>.
 					</p>
 				</div>
 			</div>
