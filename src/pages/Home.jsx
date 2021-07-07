@@ -49,7 +49,7 @@ const Home = () => (
 						<p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to check out my resume below.</p>
 					</div>
 					<div className="col-sm-12 text-center">
-						<a href="assets/resume.docx" className="btn btn-primary btn-lg">See Resume</a>
+						<a href="assets/resume.pdf" className="btn btn-primary btn-lg">See Resume</a>
 					</div>
 				</div>
 			</div>
