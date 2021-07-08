@@ -13,7 +13,7 @@ const Home = () => (
           <div className="intro-lead-in">It&rsquo;s nice to meet you!</div>
           <div className="intro-heading text-uppercase">I&rsquo;m Shaun</div>
           <Link
-            to="My Stack"
+            to="hello"
             className="nav-link--pointer"
             smooth
           >
@@ -22,7 +22,7 @@ const Home = () => (
         </div>
       </div>
     </header>
-	<Section>
+	<Section id="hello">
 		<div className="row">
           <div className="col-sm-4 offset-sm-4">
             <div className="team-member">
