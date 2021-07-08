@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Link } from 'react-scroll';
 
 import Timeline from '../components/timeline';
+import Projects from '../components/projects';
 import Section from '../components/section';
 
 const Home = () => (
@@ -12,7 +13,7 @@ const Home = () => (
           <div className="intro-lead-in">It&rsquo;s nice to meet you!</div>
           <div className="intro-heading text-uppercase">I&rsquo;m Shaun</div>
           <Link
-            to="hello"
+            to="My Stack"
             className="nav-link--pointer"
             smooth
           >
@@ -21,10 +22,8 @@ const Home = () => (
         </div>
       </div>
     </header>
-
-    <section id="hello">
-      <div className="container">
-        <div className="row">
+	<Section title="My Stack" subtitle="Here is a sample of the tech I typically work with.">
+		<div className="row">
           <div className="col-sm-4 offset-sm-4">
             <div className="team-member">
               <img src="assets/slobsinger.jpg" className="img-responsive rounded-circle" />
@@ -47,8 +46,7 @@ const Home = () => (
         <div className="row">
           <div className="col-md-8 offset-md-2">
             <p className="large text-muted">
-              I&rsquo;m
-              <strong>Shaun</strong>
+              I&rsquo;m <strong>Shaun</strong>
               , a passionate web developer and user experience advocate who is always looking for new and exciting opportunities. My degree in Human Factors (MS 2015) and over 8 years experience with software development provide a unique balance of technical and UX insights.
             </p>
             <p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to check out my resume below.</p>
@@ -57,8 +55,7 @@ const Home = () => (
             <a href="assets/resume.pdf" className="btn btn-primary btn-lg">See Resume</a>
           </div>
         </div>
-      </div>
-    </section>
+	</Section>
 
     <Section title="My Stack" subtitle="Here is a sample of the tech I typically work with.">
       <div className="row text-center">
@@ -129,6 +126,8 @@ const Home = () => (
     </Section>
 
     <Section title="My Experience" subtitle="What i&rsquo;ve been up to." component={<Timeline />} />
+
+  	<Section title="My Portfolio" subtitle="Here is a sample of my work" component={<Projects />} />
   </>
 );
 

@@ -6,9 +6,16 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
-// @import '~startbootstrap-agency/scss/variables';
+@import '~startbootstrap-agency/scss/variables';
 @import '~startbootstrap-agency/scss/agency';
 @import '~bootstrap/scss/bootstrap.scss';
+
+section {
+    &:nth-child(odd) {
+        background-color: #f8f9fa !important;
+    }
+
+}
 
 // timeline corrections
 .timeline-image {
@@ -34,4 +41,18 @@
 // navbar stuff
 .nav-link--pointer {
     cursor: pointer;
+}
+
+.portfolio-link {
+    max-height: 186px;
+    overflow: hidden;
+}
+
+.tag {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    font-weight: bold;
 }
