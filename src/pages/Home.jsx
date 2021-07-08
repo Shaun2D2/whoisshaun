@@ -22,7 +22,7 @@ const Home = () => (
         </div>
       </div>
     </header>
-	<Section title="My Stack" subtitle="Here is a sample of the tech I typically work with.">
+	<Section>
 		<div className="row">
           <div className="col-sm-4 offset-sm-4">
             <div className="team-member">
