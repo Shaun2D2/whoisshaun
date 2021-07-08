@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Section = ({
-  title, subtitle, children, component,
+  title, subtitle, children, component, id
 }) => (
   <section id={id || title}>
     <div className="container">
