@@ -29,10 +29,10 @@ const Home = () => (
               <img src="assets/slobsinger.jpg" className="img-responsive rounded-circle" />
               <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066"><i className="fab fa-linkedin-in" /></a>
+                  <a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in" /></a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://github.com/Shaun2D2"><i className="fab fa-github-alt" /></a>
+                  <a href="https://github.com/Shaun2D2" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-alt" /></a>
                 </li>
                 <li className="list-inline-item">
                   <a href="mailto:shaun.lobsinger@gmail.com">
@@ -67,12 +67,15 @@ const Home = () => (
           <h4 className="service-heading">Backend</h4>
           <p className="text-muted">
             In the past I&rsquo;ve used
+            {' '}
             <a href="https://secure.php.net/">PHP</a>
             {' '}
             or
+            {' '}
             <a href="https://www.adobe.com/products/coldfusion-enterprise.html">ColdFusion</a>
             {' '}
             to power my backend, however, I&rsquo;ve switched to mostly using
+            {' '}
             <a href="https://nodejs.org/en/">Node.js</a>
             .
           </p>
@@ -110,12 +113,14 @@ const Home = () => (
           <h4 className="service-heading">Build</h4>
           <p className="text-muted">
             I use modern build tools such as
+            {' '}
             <a href="https://webpack.js.org/">Webpack</a>
             {' '}
             in my workflow.  Along with other goodies like
             <a href="https://eslint.org/">eslint</a>
             {' '}
             and
+            {' '}
             <a href="https://babeljs.io/">babel</a>
             {' '}
             I can create powerful application quickly.
@@ -125,7 +130,7 @@ const Home = () => (
 
     </Section>
 
-    <Section title="My Experience" subtitle="What i&rsquo;ve been up to." component={<Timeline />} />
+    <Section title="My Experience" subtitle="What I&rsquo;ve been up to." component={<Timeline />} />
 
   	<Section title="My Portfolio" subtitle="Here is a sample of my work" component={<Projects />} />
   </>

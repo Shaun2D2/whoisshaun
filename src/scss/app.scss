@@ -7,8 +7,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
 @import '~startbootstrap-agency/scss/variables';
+
+$primary: #EFB801 !default;
+
 @import '~startbootstrap-agency/scss/agency';
 @import '~bootstrap/scss/bootstrap.scss';
+
+a {
+    font-weight: 500;
+}
+
+.portfolio-caption {
+    height: 150px;
+}
 
 section {
     &:nth-child(odd) {

@@ -14,17 +14,17 @@ const Footer = () => (
         <div className="col-md-4 offset-md-4">
           <ul className="list-inline social-buttons">
             <li className="list-inline-item">
-              <a href="https://github.com/Shaun2D2">
+              <a href="https://github.com/Shaun2D2" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github-alt" />
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066">
+              <a href="https://www.linkedin.com/in/shaun-lobsinger-b4098066" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in" />
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="mailto:shaun.lobsinger@gmail.com">
+              <a href="mailto:shaun.lobsinger@gmail.com" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-envelope" />
               </a>
             </li>

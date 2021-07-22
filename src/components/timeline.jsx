@@ -43,7 +43,7 @@ const Timeline = () => (
       <div className="timeline-panel">
         <div className="timeline-heading">
           <h4>2012 - 2013</h4>
-          <h4 className="subheading">Quality Analyist</h4>
+          <h4 className="subheading">Quality Analyst</h4>
         </div>
         <div className="timeline-body">
           <p className="text-muted">
