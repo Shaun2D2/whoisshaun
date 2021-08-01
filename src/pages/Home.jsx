@@ -52,7 +52,7 @@ const Home = () => (
             <p className="large text-muted">I have experience with several modern languages and frameworks such as Node.js and React.  Feel free to check out my resume below.</p>
           </div>
           <div className="col-sm-12 text-center">
-            <a href="assets/resume.pdf" className="btn btn-primary btn-lg">See Resume</a>
+            <a href="assets/resume.pdf" className="btn btn-primary btn-lg" target="_blank">See Resume</a>
           </div>
         </div>
 	</Section>
@@ -68,15 +68,15 @@ const Home = () => (
           <p className="text-muted">
             In the past I&rsquo;ve used
             {' '}
-            <a href="https://secure.php.net/">PHP</a>
+            <a href="https://secure.php.net/" target="_blank">PHP</a>
             {' '}
             or
             {' '}
-            <a href="https://www.adobe.com/products/coldfusion-enterprise.html">ColdFusion</a>
+            <a href="https://www.adobe.com/products/coldfusion-enterprise.html" target="_blank">ColdFusion</a>
             {' '}
             to power my backend, however, I&rsquo;ve switched to mostly using
             {' '}
-            <a href="https://nodejs.org/en/">Node.js</a>
+            <a href="https://nodejs.org/en/" target="_blank">Node.js</a>
             .
           </p>
         </div>
@@ -87,21 +87,21 @@ const Home = () => (
           </span>
           <h4 className="service-heading">Frontend</h4>
           <p className="text-muted">
-            <a href="https://reactjs.org/">React</a>
+            <a href="https://reactjs.org/" target="_blank">React</a>
             {' '}
             and
             {' '}
-            <a href="https://redux.js.org/">Redux</a>
+            <a href="https://redux.js.org/" target="_blank">Redux</a>
             {' '}
             is my go to frameworks to manage frontend UI and state.  I&rsquo;ve commonly implement other popular packages / frameworks such as
             {' '}
-            <a href="https://momentjs.com/">moment.js</a>
+            <a href="https://momentjs.com/" target="_blank">moment.js</a>
             ,
             {' '}
-            <a href="https://lodash.com/">lodash</a>
+            <a href="https://lodash.com/" target="_blank">lodash</a>
             , and
             {' '}
-            <a href="https://getbootstrap.com/">bootstrap</a>
+            <a href="https://getbootstrap.com/" target="_blank">bootstrap</a>
             .
           </p>
         </div>
@@ -114,14 +114,14 @@ const Home = () => (
           <p className="text-muted">
             I use modern build tools such as
             {' '}
-            <a href="https://webpack.js.org/">Webpack</a>
+            <a href="https://webpack.js.org/" target="_blank">Webpack</a>
             {' '}
             in my workflow.  Along with other goodies like
-            <a href="https://eslint.org/">eslint</a>
+            <a href="https://eslint.org/" target="_blank">eslint</a>
             {' '}
             and
             {' '}
-            <a href="https://babeljs.io/">babel</a>
+            <a href="https://babeljs.io/" target="_blank">babel</a>
             {' '}
             I can create powerful application quickly.
           </p>
